@@ -16,7 +16,7 @@ The purpose of this project is to perform ETL on Amazon product reviews of books
 - 40.5% of the Vine reviews were 5-star
 - 45.7% of the non_Vine review were 5-star
 
-![DataFrame](/resources/vine_dataframe.png)
+![DataFrame](/Resources/vine_dataframe.png)
 
 ## Challenge Summary
 There does not appear to be any positivity bias for reviews in the Vine program.  Based on the calculations shown above, the percentages of 5-star reviews for Vine and non-Vine reviewers is pretty similar.  The percentage is actually slighly higher for non-Vine reviewers.  One analysis that could be done to further prove out that there is no bias is to add 8 additional columns to our dataframe to calculate the count and percentage for each star rating (4, 3, 2, 1).
